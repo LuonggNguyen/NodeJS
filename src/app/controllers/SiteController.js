@@ -9,14 +9,6 @@ class SiteController {
                  { courses: multipleMongooseToObject(courses) });
             })
             .catch(next);
-        // Course.find({}, function(err, courses){
-        //     if(!err) {
-        //         res.json(courses);
-        //     }else{
-        //         next(err);
-        //         res.status(400).json({error: 'ERROR'});
-        //     }
-        // });
 
         // res.render('home');
     }
